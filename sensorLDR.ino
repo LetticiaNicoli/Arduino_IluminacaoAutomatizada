@@ -2,6 +2,7 @@ const int LDR = 0;
 const int Led = 6;
 int valorLido = 0;
 int pwm = 0;
+int valorSombra = 300;
 
 void setup(){
   pinMode(Led,OUTPUT);
@@ -10,7 +11,7 @@ void setup(){
 void loop(){
   valorLido = analogRead(LDR);
   
-  if(valorLido < 300){
+  if(valorLido < valorSombra){
     analogWrite(Led,pwm);
     pwm++;
     delay(100);
