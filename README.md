@@ -10,5 +10,4 @@ Projeto de iluminação automatizada, parecido ao utilizado em postes de luz, on
 * 01 Resistor de 300
 * 08 Cabos Diversos
 
-
-
+![Alt text](https://github.com/LetticiaNicoli/Arduino_IluminacaoAutomatizada/blob/master/DSC_1348.JPG "Sensor Luminosidade")
